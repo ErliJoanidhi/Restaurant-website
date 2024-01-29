@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <title>Erli's Restaurant</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar">
+    <img id="foto" src="./photos/Logo restoranti.png">
+    <div id="navbar-right">
+      <a href="index.html">Home</a>
+      <a class="active" href="about-us.html">About Us</a>
+      <a href="index.html #menu">Menu</a>
+      <a   href="book-table.html">Book table</a>
+      <a href="index.html #google-map">Location</a>
+    </div>
+  </div>
+    <div class="text-top-about-us">
+      <p>About Us</p>
+    </div>
+    <div class=main>
+      <div class="about-us-container">
+        <div>
+          <img class="foto-about-us" src="./photos/Logo restoranti.png">
+        </div>
+        <div> 
+          <p class="about-us-text">Welcome to our fast food restaurant! We are passionate about providing our customers with delicious meals that are both quick and affordable. Our mission is to make sure that everyone who visits our restaurant leaves feeling satisfied and happy.
+
+            At our restaurant, we use only the highest quality ingredients to prepare our food. From our juicy burgers to our crispy fries, everything is made fresh and to order. We take pride in our menu and we are constantly striving to improve it, ensuring that there is something for everyone to enjoy.
+            
+            Our team is dedicated to providing excellent customer service. We believe that every customer is important and we do our best to make sure that everyone feels welcome and valued. Whether you are a regular customer or a first-time visitor, we will always greet you with a smile and do our best to make your experience a great one.
+            
+            We understand that people lead busy lives and don't always have time to sit down for a meal. That's why we offer a range of convenient takeout and delivery options. You can enjoy our food wherever you are, whether it's at home, at work, or on the go.
+            
+            We are proud to be part of this community and we take our responsibility seriously. We are committed to minimizing our environmental impact and we use eco-friendly packaging whenever possible. We also work with local suppliers to source our ingredients, supporting local businesses and reducing our carbon footprint.
+            
+            Thank you for choosing our fast food restaurant. We appreciate your business and we look forward to serving you again soon!</p>
+        </div>
+      </div>  
+    </div>
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <a href="#">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+      <div class="row">
+        <ul>
+          <li>
+            <a href="#">Contact us</a>
+          </li>
+          <li>
+            <a href="#">Our Services</a>
+          </li>
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Terms & Conditions</a>
+          </li>
+          <li>
+            <a href="#">Career</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row"> Copyright © 2023 - All rights reserved | Designed By: Erli </div>
+    </div>
+  </footer>
+  <script>// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "0px 10px";
+        document.getElementById("foto").style.width = "100px";
+        document.getElementById("foto").style.height = "100px";
+      } else {
+        document.getElementById("navbar").style.padding = "10px 10px";
+        document.getElementById("foto").style.width = "200px";
+        document.getElementById("foto").style.height = "200px";
+      }
+    }</script>
+</body>
+</html>

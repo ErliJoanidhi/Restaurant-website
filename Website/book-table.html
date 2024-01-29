@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+  <title>Erli's Restaurant</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="navbar">
+    <img id="foto" src="./photos/Logo restoranti.png">
+    <div id="navbar-right">
+      <a href="index.html">Home</a>
+      <a href="about-us.html">About Us</a>
+      <a href="index.html #menu">Menu</a>
+      <a  class="active" href="book-table.html">Book table</a>
+      <a href="index.html #google-map">Location</a>
+    </div>
+  </div>
+    <div class="">
+        <p class="book-text-top">Book Table</p>
+    </div>
+    <div class=main>
+      <div class="container-book">
+        <div class="title">Book Table</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+              
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter your number" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Date/Time</span>
+                <input type="text" placeholder="Enter your prefered time" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Message</span>
+                <input type="text" placeholder="Enter your message" required>
+              </div>
+            </div>
+            
+            <div class="button">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div> 
+    </div>
+  <footer>
+    <div class="footer">
+      <div class="row">
+        <a href="#">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+      <div class="row">
+        <ul>
+          <li>
+            <a href="#">Contact us</a>
+          </li>
+          <li>
+            <a href="#">Our Services</a>
+          </li>
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Terms & Conditions</a>
+          </li>
+          <li>
+            <a href="#">Career</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row"> Copyright © 2023 - All rights reserved | Designed By: Erli </div>
+    </div>
+  </footer>
+  <script>// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "0px 10px";
+        document.getElementById("foto").style.width = "100px";
+        document.getElementById("foto").style.height = "100px";
+      } else {
+        document.getElementById("navbar").style.padding = "10px 10px";
+        document.getElementById("foto").style.width = "200px";
+        document.getElementById("foto").style.height = "200px";
+      }
+    }</script>
+</body>
+</html>
